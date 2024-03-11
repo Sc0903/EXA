@@ -1,0 +1,39 @@
+/* src/styles.css */
+.comida {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .comida h2 {
+    margin-top: 0;
+  }
+
+  .comida > div {
+    flex-grow: 1; /* la información ocupa todo el espacio restante */
+  }
+  
+  .comida h2 {
+    margin-top: 0; /* elimina el margen superior del nombre */
+  }
+  
+  .comida p {
+    margin-bottom: 10px; /* espacio entre cada línea de información */
+  }
+  
+  
+  .comida {
+    display: flex;
+    align-items: center;
+    max-width: 600px; /* ajusta el ancho máximo según tu diseño */
+    margin-bottom: 20px; /* espacio entre cada comida */
+  }
+  
+  .comida img {
+    max-width: 200px; /* ajusta el tamaño máximo de la imagen según tu diseño */
+    margin-right: 20px; /* espacio entre la imagen y la información */
+  }
+  
+
+  
